@@ -122,9 +122,128 @@ body{
 
 }
 
-.persoanl-service {
-    color: white;
+.personal-service{
+    /* color: white; */
     display: flex;
+    /* list-style: none; */
+    justify-content: space-between;
+    padding: 48px 0px 48px 48px;
+
+}
+.personal-service p{
+    color: white;
+    /* font-weight: bold; */
+    font-family: Chivo;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.personal-service li{
+    color: white;
+    /* font-weight: bold; */
+    list-style: none;
+    font-family: Archivo;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+
+}
+
+.collage{
+    display: flex;
+    font-weight: bold;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.two-img{
+    display: flex;
+    
+    justify-content: space-between;
+}
+
+
+#single-img{
+    display: flex;
+    justify-content: end;
+
+}
+.matrics{
+    padding: 120px 0px 48px 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.matrics p{
+    color: white;
+    font-weight: 900;
+}
+.list2 p{
+    color: white;
+}
+.list2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    row-gap: 50px;
+    column-gap: 100px ;
+}
+
+.cell{
+    border: 2px 0px 2px 0px solid  white;
+}
+.list2 li{
+    color: white;
+    list-style: none;
+    font-family: Chivo;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 52px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+.testimonials{
+    width: Fill (1,344px)px;
+    height: Hug (388px)px;
+    padding: 48px 0px 48px 0px;
+    gap: 48px;
+    border: 0px 0px 1px 0px;
+    opacity: 0px;
+
+}
+.testimonials h1{
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    font-size: 48px;
+
+
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    color: #FFFFFF99;
+    margin: 20px;
+}
+
+#Contact{
+    font-weight: bold;
+    border: 2px solid grey;
+    border-radius:5px;
+    padding: 5px;
+    color: white;
 
 
 }
